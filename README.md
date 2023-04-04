@@ -19,5 +19,5 @@ The travel dataset provides detailed information on various trips taken by trave
 
 ## BULDING ETL PIPELINE 
   ### Architurial diagram 
-  ![alt text](arch.jpg)
+  ![diagram](arch.jpg)
   
