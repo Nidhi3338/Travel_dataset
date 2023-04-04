@@ -17,4 +17,7 @@ The travel dataset provides detailed information on various trips taken by trave
 12. Transportation type	
 13. Transportation cost
 
-
+## BULDING ETL PIPELINE 
+  ### Architurial diagram 
+  ![alt text](arch.jpg)
+  
