@@ -2,7 +2,7 @@
 
 ## traveller database 
 ### data source  - Kaggle
--- 13 attributes 
+- 13 attributes 
 1. Trip ID
 2. Destination	
 3. Start date	
