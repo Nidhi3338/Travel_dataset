@@ -1,0 +1,18 @@
+### traveller database 
+data source - Kaggle
+13 attributes 
+1.Trip ID
+2.Destination	
+3.Start date	
+4.End date	
+5.Duration (days)	
+6.Traveler name	
+7.Traveler age	
+8.Traveler gender	
+9.Traveler nationality	
+10.Accommodation type	
+11.Accommodation cost	
+12.Transportation type	
+13.Transportation cost
+<img width="1152" alt="image" src="https://user-images.githubusercontent.com/33623897/229866453-f5858fd0-ced5-4c36-9c41-4a749db470a3.png">
+
