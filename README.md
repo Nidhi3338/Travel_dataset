@@ -1,7 +1,7 @@
 # Travel_Dataset // Data_Engineering project
 
 ### data source  
-- Kaggle
+- kaggle
 - 13 attributes 
 1. Trip ID
 2. Destination	
