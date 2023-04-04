@@ -33,6 +33,6 @@ The travel dataset provides detailed information on various trips taken by trave
 - Transportation cost: The cost of transportation for the entire trip.
 
 ## BULDING ETL PIPELINE 
-  ### Architurial diagram 
+  ### Architecture diagram 
   ![diagram](arch.jpg)
   
