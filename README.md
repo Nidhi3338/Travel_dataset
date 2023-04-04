@@ -16,5 +16,5 @@
 11. Accommodation cost	
 12. Transportation type	
 13. Transportation cost
-<img width="1152" alt="image" src="https://user-images.githubusercontent.com/33623897/229866453-f5858fd0-ced5-4c36-9c41-4a749db470a3.png">
+
 
