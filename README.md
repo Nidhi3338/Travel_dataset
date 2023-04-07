@@ -36,5 +36,5 @@ The travel dataset provides detailed information on various trips taken by trave
   ### Architecture diagram 
   ![diagram](arch.jpg)
   ## Data Model
-  ![diagram](Screenshot 2023-04-07 at 12.40.14 PM.png)
+  ![diagram](model.jpeg)
   
