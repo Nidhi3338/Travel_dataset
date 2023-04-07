@@ -36,6 +36,7 @@ The travel dataset provides detailed information on various trips taken by trave
   ### Architecture diagram 
   ![diagram](arch.jpg)
   ## Data Model
-  - created a 5 tables in Smartdraw website connected each table using Uml diagram
+  - created 5 tables in Smartdraw website connected each table using Uml diagram
+  - this is the class representation 
   ![diagram](model.jpeg)
   
