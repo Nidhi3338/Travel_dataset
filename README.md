@@ -33,10 +33,15 @@ The travel dataset provides detailed information on various trips taken by trave
 - Transportation cost: The cost of transportation for the entire trip.
 
 ## BULDING ETL PIPELINE 
-  ### Architecture diagram 
+  ### Architecture diagram for amazon cloud 
   ![diagram](arch.jpg)
   ## Data Model
   - created 5 tables in Smartdraw website connected each table using Uml diagram
   - this is the class representation 
   ![diagram](model.jpeg)
+  - clean the data using pandas 
+  - removed null values
+  - split the column and got a city string 
+  - removed unwanted symbols from the column 
+  - removed duplicate data 
   
