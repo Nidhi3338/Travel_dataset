@@ -39,7 +39,8 @@ The travel dataset provides detailed information on various trips taken by trave
   - created 5 tables in Smartdraw website connected each table using Uml diagram
   - this is the class representation 
   ![diagram](model.jpeg)
-  - clean the data using pandas 
+  ## cleaning data using pandas 
+
   - removed null values
   - split the column and got a city string 
   - removed unwanted symbols from the column 
