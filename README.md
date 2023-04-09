@@ -44,5 +44,6 @@ The travel dataset provides detailed information on various trips taken by trave
   - removed null values
   - split the column and got a city string 
   - removed unwanted symbols from the column 
-  - removed duplicate data 
+  - removed duplicate data using substring 
+  - lastly converted dataframe to csv file  exported into excel 
   
