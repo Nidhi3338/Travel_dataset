@@ -39,7 +39,7 @@ The travel dataset provides detailed information on various trips taken by trave
   - created 5 tables in Smartdraw website connected each table using Uml diagram
   - this is the class representation 
   ![diagram](model.jpeg)
-  ## cleaning data using pandas 
+  ## Cleaning data using pandas 
 
   - removed null values
   - split the column and got a city string 
@@ -47,7 +47,7 @@ The travel dataset provides detailed information on various trips taken by trave
   - removed duplicate data using substring 
   - lastly converted dataframe to csv file  exported into excel 
   
-## relational data 
+## Relational data 
 - find out the cardinality to understand where to assign foriegn key in the entity 
 - understanding the normalisation and add columns in the same table because of the analytics performes so duplicates wont be created 
 - found of thr age of traveller can be added in diffrent tablr to find where they travel and  at what age, understanding the table and  what we need in the end while querying in the database and what we want to achvie from the data .
