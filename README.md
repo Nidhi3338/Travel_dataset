@@ -51,3 +51,21 @@ The travel dataset provides detailed information on various trips taken by trave
 - find out the cardinality to understand where to assign foriegn key in the entity 
 - understanding the normalisation and add columns in the same table because of the analytics performes so duplicates wont be created 
 - found of thr age of traveller can be added in diffrent tablr to find where they travel and  at what age, understanding the table and  what we need in the end while querying in the database and what we want to achvie from the data .
+
+'''
+create database travel;
+use traveller;
+show tables;
+drop table tripinfo;
+drop table traveller;
+drop table age;
+create table tripinfo(trip_id int,destination varchar(15),Start_date date,End_data date,Duration int,Transportation_cost int,Transportation_type varchar(6),Accommodation_type varchar(15),Accommodation_cost int);
+create table traveller(traveller_id int,Traveler_name varchar(15),Traveler_gender varchar(20),Traveler_nationality varchar(20));
+create table age(traveller_id int,Traveler_age int,trip_id int);
+show tables;
+alter table traveller  rename to  traveller_data ;
+select * from tripinfo;
+alter table tripinfo add constraint primary key(trip_id);
+select * from traveller_data;
+alter table traveller_data  add constraint primary key(traveller_id);
+'''
