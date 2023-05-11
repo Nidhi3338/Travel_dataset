@@ -71,6 +71,6 @@ select * from traveller_data;
 alter table traveller_data  add constraint primary key(traveller_id); // adding primary key 
 ```
 	
-![diagram](model.jpeg)
-![diagram](model.jpeg)
-![diagram](model.jpeg)
+![diagram](age.jpeg)
+![diagram](travel.jpeg)
+![diagram](tripinfo.jpeg)
