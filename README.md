@@ -72,5 +72,7 @@ alter table traveller_data  add constraint primary key(traveller_id); // adding 
 ```
 	
 ![diagram](age.jpeg)
+
 ![diagram](travel.jpeg)
+
 ![diagram](tripinfo.jpeg)
