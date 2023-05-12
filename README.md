@@ -54,21 +54,49 @@ The travel dataset provides detailed information on various trips taken by trave
 
 # SQL QUERY IN MYSQL SERVER 
 ```
-create database traveller;
+create database travel;
 use traveller;
-show tables;  // created three tables 
+show tables;
 drop table tripinfo;
 drop table traveller;
 drop table age;
-create table tripinfo(trip_id int,destination varchar(15),Start_date date,End_data date,Duration int,Transportation_cost int,Transportation_type varchar(6),Accommodation_type varchar(15),Accommodation_cost int);
-create table traveller(traveller_id int,Traveler_name varchar(15),Traveler_gender varchar(20),Traveler_nationality varchar(20));
-create table age(traveller_id int,Traveler_age int,trip_id int);
+CREATE TABLE traveller (
+  traveller_id INT,
+  Traveler_name VARCHAR(15),
+  Traveler_gender VARCHAR(20),
+  Traveler_nationality VARCHAR(20),
+  PRIMARY KEY (traveller_id)
+);
+CREATE TABLE tripinfo (
+  trip_id INT not null,
+  traveller_id INT not null,
+  destination VARCHAR(15),
+  Start_date DATE,
+  End_data DATE,
+  Duration INT,
+  Transportation_cost INT,
+  Transportation_type VARCHAR(6),
+  Accommodation_type VARCHAR(15),
+  Accommodation_cost INT,
+  PRIMARY KEY (trip_id),
+  FOREIGN KEY (traveller_id) REFERENCES traveller(traveller_id)
+);
+CREATE TABLE age (
+  traveller_id INT NOT NULL,
+  Traveler_age INT,
+  trip_id INT NOT NULL,
+  FOREIGN KEY (trip_id) REFERENCES tripinfo(trip_id),
+  FOREIGN KEY (traveller_id) REFERENCES traveller(traveller_id)
+);
+
 show tables;
 alter table traveller  rename to  traveller_data ;
 select * from tripinfo;
 alter table tripinfo add constraint primary key(trip_id);
 select * from traveller_data;
-alter table traveller_data  add constraint primary key(traveller_id); // adding primary key 
+alter table traveller_data  add constraint primary key(traveller_id);
+select * from age ;
+
 ```
 	
 ![diagram](age.jpeg)
