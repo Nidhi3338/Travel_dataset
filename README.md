@@ -104,3 +104,18 @@ select * from age ;
 ![diagram](travel.jpeg)
 
 ![diagram](tripinfo.jpeg)
+
+Simple Query performance 
+```
+select * from tripinfo;
+select trip_id, duration,transportation_type from tripinfo
+where transportation_type = 'flight' and duration = 7;
+
+select traveler_age from age
+group by traveler_age
+order by traveler_age desc;
+
+select * from traveller
+where Traveler_gender = 'Female' and Traveler_nationality ='indian';
+
+
