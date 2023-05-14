@@ -117,5 +117,9 @@ order by traveler_age desc;
 
 select * from traveller
 where Traveler_gender = 'Female' and Traveler_nationality ='indian';
+```
+step 3 transforming data to s3 bucket - storage 
+
+Step 4 (dimensional model )
 
 
