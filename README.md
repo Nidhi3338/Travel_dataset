@@ -134,6 +134,8 @@ step 3 transforming data to s3 bucket - storage
     ]
 }
 ```
+console sign in : https://747063478910.signin.aws.amazon.com/console
+
 Step 4 (dimensional model )
 
 
