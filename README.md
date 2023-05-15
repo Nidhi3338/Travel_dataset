@@ -134,7 +134,8 @@ step 3 transforming data to s3 bucket - storage
     ]
 }
 ```
-console sign in : https://747063478910.signin.aws.amazon.com/console
+- console sign in : https://747063478910.signin.aws.amazon.com/console
+- downloaded a csv file 
 
 Step 4 (dimensional model )
 
