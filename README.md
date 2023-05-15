@@ -119,7 +119,21 @@ select * from traveller
 where Traveler_gender = 'Female' and Traveler_nationality ='indian';
 ```
 step 3 transforming data to s3 bucket - storage 
-
+- created a AWS account 
+- in (Iam ) to manage the users , created limited users to access the cloud for secrity 
+- created users , name , password
+- gave perssion for admit access , where most of the work will be done by the admin
+``` {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+        }
+    ]
+}
+```
 Step 4 (dimensional model )
 
 
