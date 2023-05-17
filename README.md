@@ -136,6 +136,11 @@ step 3 transforming data to s3 bucket - storage
 ```
 - console sign in : https://747063478910.signin.aws.amazon.com/console
 - downloaded a csv file [csv_file](https://github.com/Nidhi3338/Travel_dataset/blob/main/Nidhi-jag_credentials%20(1).csv)
+- we create security goup in VPN , for safty what customers to be added 
+- we do data ETL ( data from sourse to extracxt and machine to transforme and load  into warehouse)
+- two difrrent types of implemting data warehouse 
+1. cloud 
+2. on local 
 
 Step 4 (dimensional model )
 
