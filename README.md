@@ -141,6 +141,7 @@ step 3 transforming data to s3 bucket - storage
 - two difrrent types of implemting data warehouse 
 1. cloud 
 2. on local 
+![diagram](warehouse.jpeg)
 
 Step 4 (dimensional model )
 
