@@ -142,7 +142,8 @@ step 3 transforming data to s3 bucket - storage
 1. cloud 
 2. on local 
 ![diagram](warehouse.jpeg)
-
+## cloud_data_flow 
+- ![diagram](cloud_flow.jpeg)
 Step 4 (dimensional model )
 
 
