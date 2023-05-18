@@ -144,6 +144,10 @@ step 3 transforming data to s3 bucket - storage
 ![diagram](warehouse.jpeg)
 ## cloud_data_flow 
 - ![diagram](cloud_flow.jpeg)
+## redshift 
+it is a relational databbase warehouse 
+- OLTP AND OLAP know the diffrence 
+- 
 Step 4 (dimensional model )
 
 
