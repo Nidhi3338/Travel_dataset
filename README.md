@@ -145,8 +145,16 @@ step 3 transforming data to s3 bucket - storage
 ## cloud_data_flow 
 - ![diagram](cloud_flow.jpeg)
 ## redshift 
+- ![diagram](redarch.jpeg)
 it is a relational databbase warehouse 
 - OLTP AND OLAP know the diffrence 
+- redshift is OLAP 
+- partinal table ( table 1 to cpu 1 in server 1 ,table 2 to cpu 2 in server 1, table 5 to cup 1 in server 2) this how it works parally
+- column oriented ( in the table ) it stores everything in a column unlike relational datbase which is row oriented 
+ ### when we do analytics redshift is good for because we only look into to one type / column unlike RDB which takes row which is the mixture of the columns .
+ it will be stored in one single block and faster processing 
+- entire column will have same type of data
+- reduction of disk space 
 - ![diagram](redshift.jpeg)
 Step 4 (dimensional model )
 
