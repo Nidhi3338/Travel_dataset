@@ -147,7 +147,7 @@ step 3 transforming data to s3 bucket - storage
 ## redshift 
 it is a relational databbase warehouse 
 - OLTP AND OLAP know the diffrence 
-- 
+- ![diagram](redshift.jpeg)
 Step 4 (dimensional model )
 
 
