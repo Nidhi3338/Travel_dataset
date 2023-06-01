@@ -123,6 +123,7 @@ step 3 transforming data to s3 bucket - storage
 - in (Iam ) to manage the users , created limited users to access the cloud for secrity 
 - created users , name , password
 - gave perssion for admit access , where most of the work will be done by the admin
+- S3 bucket is a oject storage 
 ``` {
     "Version": "2012-10-17",
     "Statement": [
@@ -138,7 +139,8 @@ step 3 transforming data to s3 bucket - storage
 - downloaded a csv file [csv_file](https://github.com/Nidhi3338/Travel_dataset/blob/main/Nidhi-jag_credentials%20(1).csv)
 - we create security goup in VPN , for safty what customers to be added 
 - we do data ETL ( data from sourse to extracxt and machine to transforme and load  into warehouse)
-- two difrrent types of implemting data warehouse 
+- nosql dynomDB and mongoDB
+- two difrrent types of implemting data warehouse - (redshift)
 1. cloud 
 2. on local 
 ![diagram](warehouse.jpeg)
