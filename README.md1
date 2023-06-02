@@ -147,7 +147,8 @@ step 3 transforming data to s3 bucket - storage
 ## Datawarehouse 
 - collection of database in diffrent location is undergone to ETL process and loads it to data warehouse 
 - datawarehouse has stured data .
-- data lake has unstructed data , which can be found in log files which are unstruched data 
+- data lake has unstructed data , which can be found in log files which are unstruched data .
+- where unstruched data like lake can be ingested by datawarehouse 
 1. cloud 
 2. on local 
 ![diagram](warehouse.jpeg)
