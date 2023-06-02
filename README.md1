@@ -151,6 +151,8 @@ step 3 transforming data to s3 bucket - storage
 - where unstruched data like lake can be ingested by datawarehouse 
 - redshift is offered by AWS 
 - redshift works in MPP - massive parelle processing , where one main cluster node does the main job , where remaing datbases are sliced into difffrent nodes .
+- OLTP database  is used for daily transcption , upto date of date like supermarket
+- OLAP database  is good data analytics report 
 1. cloud 
 2. on local 
 ![diagram](warehouse.jpeg)
