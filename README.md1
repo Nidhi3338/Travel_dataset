@@ -145,7 +145,7 @@ step 3 transforming data to s3 bucket - storage
 - nosql dynomDB and mongoDB
 - two difrrent types of implemting data warehouse - (redshift)
 ## Datawarehouse 
-- collection of database
+- collection of database in diffrent location is undergone to ETL process and loads it to data warehouse .
 1. cloud 
 2. on local 
 ![diagram](warehouse.jpeg)
