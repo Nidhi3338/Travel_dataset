@@ -123,7 +123,10 @@ step 3 transforming data to s3 bucket - storage
 - in (Iam ) to manage the users , created limited users to access the cloud for secrity 
 - created users , name , password
 - gave perssion for admit access , where most of the work will be done by the admin
+ ## S3 
 - S3 bucket is a oject storage 
+- s3 has all data mangemnt life cycle (can alter, change and manage )
+- there are few s3 option before purchasing expensive and this will e having change in durabality 
 ``` {
     "Version": "2012-10-17",
     "Statement": [
