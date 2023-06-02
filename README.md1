@@ -149,6 +149,8 @@ step 3 transforming data to s3 bucket - storage
 - datawarehouse has stured data .
 - data lake has unstructed data , which can be found in log files which are unstruched data .
 - where unstruched data like lake can be ingested by datawarehouse 
+- redshift is offered by AWS 
+- redshift works in MPP - massive parelle processing , where one main cluster node does the main job , where remaing datbases are sliced into difffrent nodes .
 1. cloud 
 2. on local 
 ![diagram](warehouse.jpeg)
