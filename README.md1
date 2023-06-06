@@ -170,6 +170,10 @@ it is a relational databbase warehouse
 - entire column will have same type of data
 - reduction of disk space 
 - ![diagram](redshift.jpeg)
+## code for redshift /VPN 
+- used boto3 , pandas dataframe to create a cluster and used credinations info
+- create a cluster.config file in sublime txt 
+- connect redshift to S3 
 Step 4 (dimensional model )
 
 
