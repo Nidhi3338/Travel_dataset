@@ -97,6 +97,13 @@ select * from traveller_data;
 alter table traveller_data  add constraint primary key(traveller_id);
 select * from age ;
 
+### forgein key 
+ALTER TABLE tripinfo ADD CONSTRAINT traveller_id FOREIGN KEY (traveller_id) REFERENCES traveller(traveller_id);
+
+ALTER TABLE age ADD CONSTRAINT traveller_id FOREIGN KEY (traveller_id) REFERENCES traveller(traveller_id);
+ALTER TABLE age ADD CONSTRAINT trip_id FOREIGN KEY (trip_id) REFERENCES tripinfo(trip_id);
+
+
 ```
 	
 ![diagram](age.jpeg)
@@ -174,6 +181,11 @@ it is a relational databbase warehouse
 - used boto3 , pandas dataframe to create a cluster and used credinations info
 - create a cluster.config file in sublime txt 
 - connect redshift to S3 
+## postgress SQL 
+- intsalled directory /Library/PostgreSQL/15
+- data directory /Library/PostgreSQL/15/data
+- port: 5432
+- Pg admin : for creating database 
 Step 4 (dimensional model )
 
 
