@@ -187,5 +187,7 @@ it is a relational databbase warehouse
 - port: 5432
 - Pg admin : for creating database 
 Step 4 (dimensional model )
+- distubution and sorting key 
+- analytics -Quicklip
 
 
