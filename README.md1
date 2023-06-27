@@ -187,6 +187,9 @@ it is a relational databbase warehouse
 - port: 5432
 - Pg admin : for creating database 
 Step 4 (dimensional model )
+- we are doing OLAP for analyics 
+- star schema having ( fact and demision )
+- using dimensional model we do build datawarehouse 
 - distubution and sorting key 
 - analytics -Quicklip
 
